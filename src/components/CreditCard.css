@@ -1,0 +1,27 @@
+.CreditCard {
+    display:flex;
+    flex-flow: column nowrap;
+
+    border-radius: 10px;
+    width: 400px;
+    padding :20px;
+    margin: 10px;
+}
+
+.CreditCard > div {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.image { 
+    margin-left: 300px;
+}
+
+h1 {
+    font-size: 45px;
+}
